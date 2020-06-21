@@ -13,8 +13,7 @@ public class Application {
     public static void main(String[] args) {
         String randomFrom = "Telegram"; //Любая случайная строка.
         String randomTo = "Pavel Durov";  //Любая случайная строка.
-        int randomSalary = new Random().nextInt(); //Любое случайное число.
-
+        int randomSalary = new Random().nextInt(100); //Любое случайное число.
         MailMessage firstMessage = new MailMessage(
                 "Robert Howard",
                 "H.P. Lovecraft",
